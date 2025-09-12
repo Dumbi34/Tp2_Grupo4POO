@@ -16,9 +16,11 @@ public class Ejercicio2 {
         String nombre4 = "Silvia Juarez";
         int dni4 = 43100789;
 
-        System.out.println(nombre1 + " - " + dni1);
-        System.out.println(nombre2 + " - " + dni2);
-        System.out.println(nombre3 + " - " + dni3);
-        System.out.println(nombre4 + " - " + dni4);
+         System.out.println(
+            nombre1 + " - " + dni1 + "\n" +
+            nombre2 + " - " + dni2 + "\n" +
+            nombre3 + " - " + dni3 + "\n" +
+            nombre4 + " - " + dni4
+        );
     }
 }
